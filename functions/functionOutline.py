@@ -13,8 +13,8 @@ no key words (name them in a way that python allows it)
 
 '''
 def sumTwoNums(numOne, numTwo):
-    sum = numOne + numTwo
-    return sum
+    number = numOne + numTwo
+    return number
 x = 2 
 y = 3 
 num = sumTwoNums(x, y)
@@ -22,16 +22,16 @@ num = sumTwoNums(x, y)
 print (num)
 
 
-def printList(list):
-    for x in list: 
+def happy(flower):
+    for x in flower: 
         print (x)
     return
 
 a  = ("string", "string", "string")
-printList(a)
+happy(a)
 
 b = ("True", "False", "True","False")
-printList(b)
+happy(b)
 
 #1) Make a function that has two boolean parameters. If both booleans are
 #true, return true. Else, return false. Then, call the function.

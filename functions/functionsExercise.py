@@ -7,13 +7,13 @@ more functions.
 #each item in the list. It shouldn't return anything. Then, call the function.
 #Print what the function returns.
 
-def printList (list):
-    for x in list:
+def happyOne(flowerOne):
+    for x in flowerOne:
         print(x)
         return 
     
-list = [1, 2, 3, 4, 5, 6]
-print (printList (list))
+flowerOne = [1, 2, 3, 4, 5, 6]
+print (happyOne(flowerOne))
 
 #2) Make a function that has one int parameter: radius. Make the function
 #calculate the circumference of a circle using radius (the calc is: 2 * radius
@@ -42,11 +42,11 @@ print (area(3, 4))
 #a for loop. Then return the combined string. Then, call the function.
 #Print what the function returns.
 
-def combineList(list):
+def happy(flower):
     combine = " "
-    for x in list:
+    for x in flower:
         combine = combine + x 
     return combine
 
-list = ["Michael", "Juan", "AJ", "Nino"]
-print(combineList(list))
+flower = ["Michael", "Juan", "AJ", "Nino"]
+print(happy(flower))

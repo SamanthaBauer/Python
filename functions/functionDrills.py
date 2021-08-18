@@ -56,7 +56,16 @@ print(answer)
 #return false. Now call the function.
 #Print what the function returns.
 
-
+def answer (y, x):
+    if y == x:
+        return True 
+    else: 
+        return False
+    
+x = 6
+y = 5 
+    
+print (answer (x, y)) 
 
 #4) Define a function that has two int parameters. Make the function
 #check which parameter is bigger, and return the bigger parameter. 
@@ -82,7 +91,16 @@ print (numberTwo(x, y))
 #the function.
 #Print what the function returns.
 
+def addingStrings(x, y):
+    sumOfAdding = x + y 
+    return sumOfAdding
 
+x = "Samantha " 
+y = "Bauer" 
+
+sumOfAdding = addingStrings(x, y)
+
+print (sumOfAdding)
 
 #6) Define a function that has three int parameters. If the first number is 
 #equal to the second OR the third number, return true. Else, return false. Now 
