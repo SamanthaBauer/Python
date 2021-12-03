@@ -11,6 +11,8 @@ Fill in this outline as the instructor goes through the lesson.
 
 a = 5
 a = 4
+a = 5
+a = 3
 
 #Float
 
